@@ -1,4 +1,15 @@
 import Image from 'next/image'
+import { Metadata } from 'next';
+
+ 
+export const metadata: Metadata = {
+  title: 'Office Beauty',
+  description: 'Salão de beleza em Curitiba, especializado em cabelos, unhas, sobrancelhas, cílios, piercing.',
+  icons: {
+    icon: '/images/logo-ob.png',
+  }
+};
+
 
 export default function Home() {
   return (
