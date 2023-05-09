@@ -14,28 +14,21 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
-
-            Office Beauty
-            {/* <Image
-              src="/vercel.svg"
+            <Image
+              src="/images/logo-ob.png"
               alt="Vercel Logo"
               className="dark:invert"
               width={100}
               height={24}
               priority
-            /> */}
+            />
           </a>
         </div>
       </div>
 
-      {/* <div className="relative flex place-items-center text-[#E79C88]">
-        <h1 className="text-3xl flex flex-col font-semibold">OFFICE <span className='inline-block'>BEAUTY</span></h1>
-      </div> */}
-
       <div className="text-center font-semibold text-[#E79C88]">
         <p className={`m-0 max-w-[30ch] text-center `}>
-          Rua Emanoel Kant, 60
+          Rua Emanuel Kant, 60 - Capão Raso, Curitiba - PR, 81020-670
         </p>        
         <a href="https://api.whatsapp.com/send/?phone=5541988245295&text&type=phone_number&app_absent=0" target='_blank'>(41) 98824-5295</a>
       </div>
