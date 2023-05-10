@@ -24,9 +24,9 @@ export default function RootLayout({
           <div className="flex flex-wrap justify-center md:justify-between items-center mx-auto max-w-screen-xl">
             <div className="justify-between items-center w-auto order-1">
               <ul className="flex flex-row font-medium space-x-8 mt-0">
-                <NavItem label='About' href="about" active={false} />
-                <NavItem label='Services' href="services" active={false} />
-                <NavItem label='Contact' href="Contact" active={false} />
+                <NavItem label='Sobre' href="about" active={false} />
+                <NavItem label='Serviços' href="services" active={false} />
+                <NavItem label='Contato' href="Contact" active={false} />
 
               </ul>
             </div>

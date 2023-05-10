@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { About } from './About'
 import { Contact } from './Contact'
 export default function Home() {
