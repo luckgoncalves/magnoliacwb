@@ -3,6 +3,7 @@ import { Address } from './Address'
 import { Services } from './Services'
 import { About } from './About'
 import { Scheduling } from './Scheduling'
+import { Divider } from '../components/Divider'
 export default function Home() {
   return (
 
@@ -11,6 +12,7 @@ export default function Home() {
         <Services />
         <About />
         <Scheduling />
+        <Divider />
         <Address />
       </div>
 

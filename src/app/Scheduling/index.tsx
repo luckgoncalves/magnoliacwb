@@ -4,7 +4,7 @@ export function Scheduling() {
   return (
     <section className="flex flex-col items-start justify-center border-[1px] border-[#526B53] bg-[#FFCDBC] rounded-[50px] mt-20 w-full">
       <div className=" w-full flex flex-col md:flex-row justify-between items-center p-20 ">
-        <h2 className="text-4xl" >Agende um horário</h2>
+        <h2 className="text-4xl text-[#404040] font-light" >Agende um horário</h2>
         <a
         href={linkWhatsapp}
         target="_blank"

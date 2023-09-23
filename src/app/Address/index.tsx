@@ -7,15 +7,15 @@ export function Address() {
     const linkWhatsapp ='https://wa.me/5511989817883?text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20hor%C3%A1rio';
 
     return (
-        <section className="flex items-center justify-between w-full text-[#E79C88] mt-24">
+        <section className="flex items-center justify-between w-full text-[#E79C88] mt-24 mb-6 gap-14">
           <a
-            className="pointer-events-none flex place-items-center text-[#E79C88] gap-2 p-8"
+            className="pointer-events-none flex place-items-center text-[#E79C88]"
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image
-              src="/images/logo-ob.png"
+              src="/images/logo-office-beauty.png"
               alt="Vercel Logo"
               className="dark:invert"
               width={100}
@@ -23,7 +23,7 @@ export function Address() {
               priority
             />
           </a>
-          {/* <a href="https://api.whatsapp.com/send/?phone=5541988245295&text&type=phone_number&app_absent=0" target='_blank'>(41) 98824-5295</a> */}
+
           <div className="flex flex-col items-start gap-5">
             <p className="text-start">Endereço</p>
             <p className={`m-0 text-start text-[#E79C88]`}>
@@ -39,10 +39,12 @@ export function Address() {
           <div className="flex flex-col items-center gap-5">
             <p className="text-start">Sociais</p>
             <div className="flex gap-4">
-              <span onClick={() => window.open(linkWhatsapp, '_blank')}>
+              <p className="m-0 text-start" onClick={() => window.open(linkWhatsapp, '_blank')}>
                 <TablerBrandWhatsapp />
-              </span>
-              <TablerBrandInstagram />
+              </p>
+              <p className="m-0 text-start" onClick={() => window.open(linkWhatsapp, '_blank')}>
+                <TablerBrandInstagram />
+              </p>
             </div>
           </div>
         </section>
