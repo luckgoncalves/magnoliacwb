@@ -1,5 +1,5 @@
 export function Scheduling({id}:{id: string}) {
-  const linkWhatsapp ='https://wa.me/5511989817883?text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20hor%C3%A1rio';
+  const linkWhatsapp ='https://wa.me/5541988245295?text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20hor%C3%A1rio';
 
   return (
     <section id={id} className="flex flex-col items-start justify-center border-[1px] border-[#526B53] bg-[#FFCDBC] rounded-[50px] mt-20 w-full">

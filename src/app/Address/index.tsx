@@ -4,7 +4,7 @@ import Image from "next/image";
 import { SVGProps } from "react";
 
 export function Address() {
-    const linkWhatsapp ='https://wa.me/5511989817883?text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20hor%C3%A1rio';
+    const linkWhatsapp ='https://wa.me/5541988245295text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20hor%C3%A1rio';
 
     return (
         <section className="flex flex-col md:flex-row items-center justify-between w-full text-[#E79C88] mt-24 mb-6 gap-14">
