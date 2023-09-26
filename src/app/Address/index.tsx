@@ -4,7 +4,8 @@ import Image from "next/image";
 import { SVGProps } from "react";
 
 export function Address() {
-    const linkWhatsapp ='https://wa.me/5541988245295text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20hor%C3%A1rio';
+    const linkWhatsapp ='https://wa.me/5541988245295?text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20hor%C3%A1rio';
+    const linkInstagram ='https://www.instagram.com/o.fficebeauty/';
 
     return (
         <section className="flex flex-col md:flex-row items-center justify-between w-full text-[#E79C88] mt-24 mb-6 gap-14">
@@ -39,10 +40,10 @@ export function Address() {
           <div className="flex flex-col items-center gap-5">
             <p className="text-start">Sociais</p>
             <div className="flex gap-4">
-              <p className="m-0 text-start" onClick={() => window.open(linkWhatsapp, '_blank')}>
+              <p className="m-0 text-start cursor-pointer" onClick={() => window.open(linkWhatsapp, '_blank')}>
                 <TablerBrandWhatsapp />
               </p>
-              <p className="m-0 text-start" onClick={() => window.open(linkWhatsapp, '_blank')}>
+              <p className="m-0 text-start cursor-pointer" onClick={() => window.open(linkInstagram, '_blank')}>
                 <TablerBrandInstagram />
               </p>
             </div>
