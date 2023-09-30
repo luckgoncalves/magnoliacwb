@@ -10,10 +10,10 @@ export default function Home() {
 
       <div className="w-full flex flex-col justify-around items-center text-center font-semibold text-[#E79C88]">
         <OfficeBeauty />
-        <section className='w-full p-5 md:p-20'>
+        <section className='w-full p-5 sm:p-20'>
           <Services id="services" />
         </section>
-        <section className='bg-white w-full p-5 md:p-20' >
+        <section className='bg-white w-full p-5 sm:p-20' >
           <About id="about"/>
           <Scheduling id="scheduling"/>
           <Divider />
