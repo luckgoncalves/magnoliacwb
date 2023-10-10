@@ -9,7 +9,9 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Office Beauty',
-  description: 'Salão de beleza em Curitiba, especializado em cabelos, unhas, sobrancelhas, cílios, piercing.',
+  description: 'Salão de beleza em Curitiba, especializado em cabelos, unhas, sobrancelhas, piercing e tatuagems. Visite nosso espaço e conheça nossos serviços',
+  category: "Tatuagems, Piercing, Unhas, Cabelos, Sobrancelhas, Design de sobrancelhas",
+  keywords: "Tatuagems, Piercing, Unhas, Cabelos, Sobrancelhas, Design de sobrancelhas"
 }
 
 export default function RootLayout({
