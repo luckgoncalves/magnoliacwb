@@ -17,7 +17,7 @@ export function MenuMobile() {
     <nav className={`sm:hidden absolute  top-0 z-10 left-0 w-full `}>
       <div className={`flex items-center py-5 gap-4 ${open ? 'bg-gradient-to-r from-[#FFE2DC]  to-[#FFF]': 'bg-transparent'} bg-transparent relative z-20`}>
         <TablerMenu2 className="ml-5" onClick={() => setOpen(!open)} />
-        <span className="text-white text-2xl">Office Beauty</span>
+        <span className="text-white text-2xl">Magnolia</span>
       </div>
       <div className={`w-full h-screen z-10 delay-400 duration-500 ease-in-out transition-all transform  ${isOpen}`}>
         <ul className="flex flex-col ml-10 font-medium justify-start mt-0">

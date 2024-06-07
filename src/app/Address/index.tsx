@@ -5,7 +5,7 @@ import { SVGProps } from "react";
 
 export function Address() {
     const linkWhatsapp ='https://wa.me/5541988245295?text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20hor%C3%A1rio';
-    const linkInstagram ='https://www.instagram.com/o.fficebeauty/';
+    const linkInstagram ='https://www.instagram.com/magnolia_studiocwb/';
 
     return (
         <section className="flex flex-col md:flex-row items-center justify-between w-full text-[#E79C88] mt-24 mb-6 gap-14">

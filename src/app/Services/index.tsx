@@ -11,7 +11,6 @@ export function Services({id}:{id: string}) {
 
             <div className="rounded-[50px] flex text-white text-xl justify-center items-center bg-slate-100 md:w-[30%] h-[290px] bg-[url('/images/eyelash.png')]"><span>Tatuagens</span></div>
             <div className="rounded-[50px] flex text-white text-xl justify-center items-center bg-slate-100 md:w-[30%] h-[290px] bg-[url('/images/manicure.png')]"><span>Manicure</span></div>
-            <div className="rounded-[50px] flex text-white text-xl justify-center items-center bg-slate-100 md:w-[30%] h-[290px] bg-[url('/images/hair.png')]"><span>Cabelo</span></div>
           </div>
         </div>
     )
