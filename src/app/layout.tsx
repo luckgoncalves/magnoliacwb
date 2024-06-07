@@ -8,7 +8,7 @@ import { Menu, MenuMobile } from '../components/Menu'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Office Beauty',
+  title: 'Magnolia',
   description: 'Salão de beleza em Curitiba, especializado em cabelos, unhas, sobrancelhas, piercing e tatuagems. Visite nosso espaço e conheça nossos serviços',
   category: "Tatuagems, Tatuagems Curitiba, Tatuagem Pinheirinho, Tatuagem Capão Raso, Tatuagem Xaxim, Piercing, Piercing Curitiba, Piercing Pinheirinho, Piercing Capão Raso, Piercing Xaxim, Unhas,  Unhas Capão Raso,  Unhas Pinheirinho,  Unhas Xaxim, Cabelos, Sobrancelhas, Sobrancelhas Pinheirinho, Sobrancelhas Xaxim, Sobrancelhas Capão Raso, Design de sobrancelhas",
   keywords: "Tatuagems, Tatuagems Curitiba, Tatuagem Pinheirinho, Tatuagem Capão Raso, Tatuagem Xaxim, Piercing, Piercing Curitiba, Piercing Pinheirinho, Piercing Capão Raso, Piercing Xaxim, Unhas,  Unhas Capão Raso,  Unhas Pinheirinho,  Unhas Xaxim, Cabelos, Sobrancelhas, Sobrancelhas Pinheirinho, Sobrancelhas Xaxim, Sobrancelhas Capão Raso, Design de sobrancelhas"
