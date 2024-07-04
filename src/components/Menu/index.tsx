@@ -36,7 +36,7 @@ export function Menu() {
           <div className="flex flex-wrap justify-center items-center mx-auto">
             <div className="justify-between items-center w-[96%] order-1 bg-white rounded-full p-2">
               <ul className="flex flex-row font-medium justify-center space-x-8 mt-0 rounded-full border-[1px] border-[#E79C88]">
-                <NavItem label='Office Beauty' href="#office-beauty" active={false} />
+                <NavItem label='Magnolia' href="#magnolia" active={false} />
                 <NavItem label='Serviços' href="services" active={false} />
                 <NavItem label='Sobre nós' href="about" active={false} />
                 <NavItem label='Agende um horário' href="scheduling" active={false} />
