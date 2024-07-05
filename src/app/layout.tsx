@@ -8,10 +8,34 @@ import { Menu, MenuMobile } from '../components/Menu'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Magnolia',
-  description: 'Salão de beleza em Curitiba, especializado em cabelos, unhas, sobrancelhas, piercing e tatuagems. Visite nosso espaço e conheça nossos serviços',
-  category: "Tatuagems, Tatuagems Curitiba, Tatuagem Pinheirinho, Tatuagem Capão Raso, Tatuagem Xaxim, Piercing, Piercing Curitiba, Piercing Pinheirinho, Piercing Capão Raso, Piercing Xaxim, Unhas,  Unhas Capão Raso,  Unhas Pinheirinho,  Unhas Xaxim, Cabelos, Sobrancelhas, Sobrancelhas Pinheirinho, Sobrancelhas Xaxim, Sobrancelhas Capão Raso, Design de sobrancelhas",
-  keywords: "Tatuagems, Tatuagems Curitiba, Tatuagem Pinheirinho, Tatuagem Capão Raso, Tatuagem Xaxim, Piercing, Piercing Curitiba, Piercing Pinheirinho, Piercing Capão Raso, Piercing Xaxim, Unhas,  Unhas Capão Raso,  Unhas Pinheirinho,  Unhas Xaxim, Cabelos, Sobrancelhas, Sobrancelhas Pinheirinho, Sobrancelhas Xaxim, Sobrancelhas Capão Raso, Design de sobrancelhas"
+  title: 'Estúdio de Tatuagem, Piercing, Manicure e Sobrancelhas | Magnólia',
+  description: 'Na Magnólia, oferecemos tatuagens personalizadas, piercings profissionais, manicure e design de sobrancelhas. Agende sua visita e realce sua beleza!',
+  category: "tatuagem, piercing, manicure, design de sobrancelhas, estúdio de tatuagem, arte corporal, nail art, sobrancelhas perfeitas, Curitiba",
+  keywords: "tatuagem, piercing, manicure, design de sobrancelhas, estúdio de tatuagem, arte corporal, nail art, sobrancelhas perfeitas, Curitiba",
+  twitter: {
+    title: 'Estúdio de Tatuagem, Piercing, Manicure e Sobrancelhas | Magnólia',
+    description: 'Na Magnólia, oferecemos tatuagens personalizadas, piercings profissionais, manicure e design de sobrancelhas. Agende sua visita e realce sua beleza!',
+    images: [
+      {
+        url: 'https://instagram.fbfh21-1.fna.fbcdn.net/v/t51.2885-19/430153766_1496579174600063_7253668615630894564_n.jpg?_nc_ht=instagram.fbfh21-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=mAk9pFHUVTQQ7kNvgG7y8yG&edm=AFg4Q8wBAAAA&ccb=7-5&oh=00_AYBfyklRb3Vn4ng6lARWtw-T1yuOmergM9CDEaQbVqx9bQ&oe=668D4314&_nc_sid=0b30b7',
+        width: 800,
+        height: 600,
+        alt: 'Estúdio de Tatuagem, Piercing, Manicure e Sobrancelhas | Magnólia',
+      }
+    ]
+  },
+  openGraph:{
+    title: 'Estúdio de Tatuagem, Piercing, Manicure e Sobrancelhas | Magnólia',
+    description: 'Na Magnólia, oferecemos tatuagens personalizadas, piercings profissionais, manicure e design de sobrancelhas. Agende sua visita e realce sua beleza!',
+    images: [
+      {
+        url: 'https://instagram.fbfh21-1.fna.fbcdn.net/v/t51.2885-19/430153766_1496579174600063_7253668615630894564_n.jpg?_nc_ht=instagram.fbfh21-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=mAk9pFHUVTQQ7kNvgG7y8yG&edm=AFg4Q8wBAAAA&ccb=7-5&oh=00_AYBfyklRb3Vn4ng6lARWtw-T1yuOmergM9CDEaQbVqx9bQ&oe=668D4314&_nc_sid=0b30b7',
+        width: 800,
+        height: 600,
+        alt: 'Estúdio de Tatuagem, Piercing, Manicure e Sobrancelhas | Magnólia',
+      }
+    ],
+  }
 }
 
 export default function RootLayout({
