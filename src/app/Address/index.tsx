@@ -8,33 +8,36 @@ export function Address() {
     const linkInstagram ='https://www.instagram.com/magnolia_studiocwb/';
 
     return (
-        <section className="flex flex-col md:flex-row items-center justify-between w-full text-[#E79C88] mt-24 mb-6 gap-14">
+        <section className="flex flex-col md:flex-row items-center justify-between w-full text-[#800000] mt-24 mb-6 gap-14">
           <a
-            className="pointer-events-none flex place-items-center text-[#E79C88]"
+            className="pointer-events-none flex place-items-center text-[#800000]"
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
-              src="/images/logo-office-beauty.png"
+            {/* <Image
+              src="/images/logo-magnolia.jpg"
               alt="Vercel Logo"
               className="dark:invert"
               width={100}
               height={24}
               priority
-            />
+            /> */}
           </a>
 
           <div className="flex flex-col md:items-start gap-5">
             <p className="text-center md:text-start">Endereço</p>
-            <p className={`m-0 text-center md:text-start text-[#E79C88]`}>
+            <p className={`m-0 text-center md:text-start text-[#800000]`}>
               R. Emanuel Kant, 60 - Sala 418 - Capão Raso, Curitiba - PR, 81020-670
             </p>
           </div>
           <div className="flex flex-col md:items-start gap-5">
             <p className="text-center md:text-start">Horário de funcionamento</p>
-            <p className={`m-0 text-center md:text-start text-[#E79C88]`}>
-              Segunda à Sexta: 09:00 às 18:00
+            <p className={`m-0 text-center md:text-start text-[#800000]`}>
+              Segunda à Sexta: 08:00 às 19:00
+            </p>
+            <p className={`m-0 text-center md:text-start text-[#800000]`}>
+              Sábado: 09:00 às 16:00
             </p>
           </div>
           <div className="flex flex-col items-center gap-5">

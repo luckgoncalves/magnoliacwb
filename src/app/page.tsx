@@ -14,7 +14,7 @@ export default function Home() {
           <Services id="services" />
         </section>
         <section className='bg-white w-full p-5 sm:p-20' >
-          <About id="about"/>
+          {/* <About id="about"/> */}
           <Scheduling id="scheduling"/>
           <Divider />
           <Address />

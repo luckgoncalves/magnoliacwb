@@ -2,7 +2,7 @@ export function Services({id}:{id: string}) {
     return (
         <div id={id} className='w-full'>
           <div className="flex justify-center">
-            <p className='flex text-3xl text-center font-light text-[#E79C88]'>Nossos serviços</p>
+            <p className='flex text-3xl text-center font-light text-[#800000]'>Nossos serviços</p>
           </div>
           <div className="flex gap-10 w-full flex-col md:flex-row flex-wrap justify-center m-auto mt-10">
             <div className="rounded-[50px] flex text-white text-xl justify-center items-center bg-slate-100 md:w-[30%] h-[290px] bg-[url('/images/piercing.png')]"><span>Piercing</span></div>
